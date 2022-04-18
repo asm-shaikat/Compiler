@@ -16,14 +16,14 @@ int main(){
             for(int i=0; i<inp[j].length(); i++){
                 if(inp[j][i] == ' '){
                     cnt = 0;
-                    cout<<"The ing "<<j<<" is not valid"<<endl;
+                    cout<<j<<" is not valid"<<endl;
                     break;
                 }
             }
             if(cnt)
-                cout<<"The String "<< j<<" is valid"<<endl;
+                cout<<j<<" is valid"<<endl;
         }
         else
-            cout<<"The String "<<j<<" is not valid"<<endl;
+            cout<<j<<" is not valid"<<endl;
     }
 }
