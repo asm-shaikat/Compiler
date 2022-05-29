@@ -36,7 +36,6 @@ int Postfix(string  post_exp){
     }
     return stack.top();
 }
-
 int main(){
     string postfix_expression = "23*4+";
     cout<<"After calculating the postfix expression is : ";
